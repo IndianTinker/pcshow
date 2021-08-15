@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Montreal;
+    src: url(/fonts/NeueMontreal-Regular.woff);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Monument;
+    src: url(/fonts/MonumentExtended-Bold.woff);
+    font-weight: bold;
+}
+
+body
+{
+    background-color: #E5E5E5;
+}
+.topBtn
+{
+    display: flex;
+    justify-content: flex-end;
+    font-family: Montreal;
+}
+.jumboText
+{
+    font-family: Monument;
+    line-height: 3rem;
+}
+.textExplain
+{
+    font-family: Montreal;
+}
+.episode
+{
+    font-family: Montreal;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.episodes-head
+{
+    border-bottom-width: 1px;
+}
+
+.btnbar
+{
+    border-width: 1px 1px 1px 1px;
+}
+.date
+{
+    grid-column:1;
+}
