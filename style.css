@@ -1,11 +1,11 @@
 @font-face {
     font-family: Montreal;
-    src: url(/fonts/NeueMontreal-Regular.woff);
+    src: url(fonts/NeueMontreal-Regular.woff);
     font-weight: normal;
 }
 @font-face {
     font-family: Monument;
-    src: url(/fonts/MonumentExtended-Bold.woff);
+    src: url(fonts/MonumentExtended-Bold.woff);
     font-weight: bold;
 }
 
@@ -47,4 +47,9 @@ body
 .date
 {
     grid-column:1;
+}
+.footer
+{   font-family: Montreal;
+    border-top-width: 1px;
+    border-top-color: black;
 }
